@@ -1,0 +1,14 @@
+                      Truss Design Report
+
+Title:  Warren Truss Example
+
+Static Factor of Safety:   3.50
+Ultimate Strength:     105.0
+Yield Strength:      82.0
+Modulus of Elasticity:   30.0
+
+------------------- Link Summary -------------------------
+
+Link (1)    (2)      Length      Force   Stretch   Diameter
+1     Left   B       120.00     1.05  2     Left   C       120.00     0.00  3     B      C       120.00    -1.05  top   B      D       120.00     0.00  5     C      D       120.00     1.05  6     C      Right   120.00     0.00  7     D      Right   120.00    -1.05  
+

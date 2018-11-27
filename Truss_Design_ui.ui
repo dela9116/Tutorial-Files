@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Truss Structural Design</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_Exit">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>380</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>751</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>Truss File</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_GetWing">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>241</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Open and Read a Truss File</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_filename">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>421</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_xAverage">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>230</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_yAverage">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>290</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>240</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Average of x-values for all Nodes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Average of y-values for all Nodes</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_nNodes">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>170</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>180</y>
+      <width>301</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number of nodes in the file</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
