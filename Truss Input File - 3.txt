@@ -59,3 +59,5 @@ force,     mid y ,   2,      0,      -2000
 loadset,  end-only,     (end, 50)
 loadset,  mid-only,     (mid x, 100),  (mid y, 100)
 loadset,  all,       (end, 100), (mid x, 100), (mid y, 100)
+
+#adding a comment ... to test GIT Version control
